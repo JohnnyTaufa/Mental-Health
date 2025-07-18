@@ -1,0 +1,61 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto; 
+    grid-template-areas:
+    "navbar navbar navbar"
+    "heading heading heading"
+    "img_1 text_1 text_2 "
+    "img_2 text_3 text_4"
+    "text_5 text_5 text_5"
+    "img_3 img_3 img_3"
+    "footer footer footer";
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color:#F5BC00;
+    text-align: right;
+}
+
+.heading {
+    grid-area: heading;
+    background-color: #B1DDF0;
+    text-align: center;
+}
+
+.img_1 {
+    grid-area: img_1;
+    background-color: bisque;
+}
+
+.text_1 {
+    grid-area: text_1;
+    text-align:center;
+}
+
+.text_2{
+    grid-area: text_2;
+}
+
+.text_3{
+    grid-area: text_3;
+}
+
+.text_4{
+    grid-area: text_4;
+}
+
+.text_5{
+    grid-area: text_5;
+     background-color: chartreuse;
+}
+
+.img_3{
+    grid-area: img_3;background-color: aquamarine;
+}
+
+.footer{
+    grid-area: footer;
+     background-color: chartreuse;
+}
