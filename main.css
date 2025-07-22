@@ -15,7 +15,16 @@
 .navbar {
     grid-area: navbar;
     background-color:#F5BC00;
-    text-align: right;
+    text-align:right;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    padding:30px;
 }
 
 .heading {
