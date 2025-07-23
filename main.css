@@ -14,7 +14,7 @@
 
 .navbar {
     grid-area: navbar;
-    background-color:#F5BC00;
+    background-color:  #B1DDF0;
     text-align:right;
 }
 
@@ -24,7 +24,8 @@
 
 .navbar li {
     display: inline;
-    padding:30px;
+    padding:10px;
+    background-color:#F5BC00;
 }
 
 .heading {
@@ -41,18 +42,28 @@
 .text_1 {
     grid-area: text_1;
     text-align:center;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .text_2{
     grid-area: text_2;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .text_3{
     grid-area: text_3;
+    text-align: center;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .text_4{
     grid-area: text_4;
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 20px;
 }
 
 .text_5{
@@ -67,4 +78,7 @@
 .footer{
     grid-area: footer;
      background-color: chartreuse;
+}
+h2 {
+    text-align: center;
 }
