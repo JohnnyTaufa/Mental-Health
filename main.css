@@ -42,14 +42,21 @@
 .text_1 {
     grid-area: text_1;
     text-align:center;
-    line-height: 25px;
+    line: height 45px;
     text-align: justify;
+     background-color: bisque;
+}
+
+.img_2{
+    grid-area: img_2;
+      background-color: bisque;
 }
 
 .text_2{
     grid-area: text_2;
     line-height: 25px;
     text-align: justify;
+     background-color: bisque;
 }
 
 .text_3{
@@ -57,6 +64,7 @@
     text-align: center;
     line-height: 25px;
     text-align: justify;
+     background-color: bisque;
 }
 
 .text_4{
@@ -65,6 +73,7 @@
     text-align: justify;
     text-align: center;
     padding-left: 20px;
+     background-color: bisque;
 }
 
 .text_5{
