@@ -63,21 +63,25 @@
     grid-area: text_4;
     line-height: 25px;
     text-align: justify;
+    text-align: center;
     padding-left: 20px;
 }
 
 .text_5{
     grid-area: text_5;
-     background-color: chartreuse;
+     background-color:#F5BC00;
+     text-align: center;
 }
 
 .img_3{
-    grid-area: img_3;background-color: aquamarine;
+    background-color: #B1DDF0;
+    grid-area: img_3;background-color: ;
 }
 
 .footer{
     grid-area: footer;
-     background-color: chartreuse;
+     background-color:#F5BC00;
+   
 }
 h2 {
     text-align: center;
