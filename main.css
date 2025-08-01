@@ -26,12 +26,15 @@
     display: inline;
     padding:10px;
     background-color:#F5BC00;
+     border: 2px solid #040700;
+       border-radius: 25px;
 }
 
 .heading {
     grid-area: heading;
     background-color: #B1DDF0;
     text-align: center;
+     border: 2px solid #040700;
 }
 
 .img_1 {
@@ -56,7 +59,18 @@
 
 .img_2{
     grid-area: img_2;
-      background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+     text-align:center;
+    line-break:45px ;
+    line-height: 25px;
+    text-align: justify;
+    padding: 10%;
+    border-radius: 25px;
+    background-color: bisque;
+    border: 2px solid #040700;
+    padding: 20px;
+    width: 550px;
+    height: 400px;
 }
 
 .text_2{
@@ -90,16 +104,16 @@
 .text_4{
     grid-area: text_4;
     line-height: 25px;
-    text-align: justify;
-    text-align: center;
-    padding-left: 20px;
-     background-color: bisque;
-         border-radius: 25px;
+    text-align: left;
+    padding-left: 25px;
+    background-color: bisque;
+    border-radius: 25px;
     background-color: bisque;
     border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px
+
 }
 
 .text_h2{
