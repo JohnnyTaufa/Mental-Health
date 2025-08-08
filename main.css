@@ -8,7 +8,7 @@
     "img_1 text_1 text_2 "
     "text_6 text_3 text_4"
     "text_5 text_5 text_5"
-    "img_3 img_3 img_3"
+    "img_2 img_3 img_4"
     "footer footer footer";
 }
 
@@ -89,8 +89,7 @@
 
 .text_3{
     grid-area: text_3;
-    text-align: center;
-    line-height: 25px;
+    line-height: 35px;
     text-align: justify;
     background-color: bisque;
     border-radius: 25px;
@@ -117,8 +116,7 @@
 }
 
 .text_h2{
-     text-align: justify;
-     
+     text-align: justify;   
 }
 
 .text_5{
@@ -127,21 +125,29 @@
      text-align: center;
 }
 
-.img_3{
-    background-color: #B1DDF0;
-    grid-area: img_3;
-}
 
 .footer{
     grid-area: footer;
      background-color:#F5BC00;
    
 }
-h2 {
+
+
+.img_2{
+    grid-area: img_2;
+        text-align: center;
+}
+
+.img_3{
+    grid-area: img_3;
     text-align: center;
 }
 
-.img_2{
-    width: 200%;
+.img_4 {
+    grid-area: img_4;
+        text-align: center;
+}
+
+h2 {
     text-align: center;
 }
