@@ -9,7 +9,7 @@
     "text_6 text_3 text_4"
     "text_5 text_5 text_5"
     "img_2 img_3 img_4"
-    "footer footer footer";
+    "footer_1 footer_2 footer_3";
 }
 
 .navbar {
@@ -127,13 +127,24 @@
 }
 
 
-.footer{
-    grid-area: footer;
+.footer_1{
+    grid-area: footer_1;
      background-color:#F5BC00;
+     text-align: center;
    
 }
 
+.footer_2{
+    grid-area: footer_2;
+     background-color:#F5BC00;
+     text-align: center;
+}
 
+.footer_3{
+    grid-area: footer_3;
+     background-color:#F5BC00;
+     text-align: center;
+}
 .img_2{
     grid-area: img_2;
         text-align: center;
