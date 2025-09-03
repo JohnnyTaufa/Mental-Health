@@ -1,3 +1,6 @@
+body {
+    background-color:  #cbe6f1;
+}
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,9 +17,9 @@
 
 .navbar {
     grid-area: navbar;
-    background-color:  #B1DDF0;
+    background-color:  #cbe6f1;
     text-align:right;
-      border: 2px solid #040700;
+
 }
 
 .navbar ul {
@@ -26,22 +29,21 @@
 .navbar li {
     display: inline;
     padding:10px;
-    background-color:#F5BC00;
-     border: 2px solid #040700;
+
        border-radius: 25px;
 }
 
 .heading {
     grid-area: heading;
-    background-color: #B1DDF0;
+
     text-align: center;
-     border: 2px solid #040700;
+
 }
 
 .img_1 {
     grid-area: img_1;
     margin-top: 4%;
-    background-color: rgb(248, 248, 248);
+
 }
 
 .text_1 {
@@ -53,8 +55,6 @@
     text-align: justify;
     padding: 10%;
     border-radius: 25px;
-    background-color: bisque;
-    border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px;
@@ -62,15 +62,12 @@
 
 .text_6{
     grid-area: text_6;
-    background-color: rgb(255, 255, 255);
      text-align:center;
     line-break:45px ;
     line-height: 25px;
     text-align: justify;
     padding: 10%;
     border-radius: 25px;
-    background-color: bisque;
-    border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px;
@@ -82,10 +79,7 @@
     line-height: 25px;
     text-align: justify;
     line-height: 25px;
-    background-color: bisque;
     border-radius: 25px;
-    background-color: bisque;
-    border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px
@@ -95,10 +89,7 @@
     grid-area: text_3;
     line-height: 35px;
     text-align: justify;
-    background-color: bisque;
     border-radius: 25px;
-    background-color: bisque;
-    border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px
@@ -109,10 +100,7 @@
     line-height: 25px;
     text-align: left;
     padding-left: 25px;
-    background-color: bisque;
     border-radius: 25px;
-    background-color: bisque;
-    border: 2px solid #040700;
     padding: 20px;
     width: 550px;
     height: 400px
@@ -126,27 +114,26 @@
 .text_5{
     grid-area: text_5;
     margin-top: 4%;
-     background-color:#F5BC00;
      text-align: center;
 }
 
 
 .footer_1{
     grid-area: footer_1;
-     background-color:#F5BC00;
+     background-color:#f7e19b;
      text-align: center;
    
 }
 
 .footer_2{
     grid-area: footer_2;
-     background-color:#F5BC00;
+     background-color:#f7e19b;
      text-align: center;
 }
 
 .footer_3{
     grid-area: footer_3;
-     background-color:#F5BC00;
+     background-color:#f7e19b;
      text-align: center;
 }
 .img_2{

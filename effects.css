@@ -93,7 +93,7 @@
 
 .text_3{
     grid-area: text_3;
-    line-height: 35px;
+    line-height: 1.5;
     text-align: justify;
     background-color: bisque;
     border-radius: 25px;
@@ -151,7 +151,7 @@
 }
 .img_2{
     grid-area: img_2;
-        text-align: center;
+    text-align: center;
 }
 
 .img_3{
