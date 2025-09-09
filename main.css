@@ -148,7 +148,7 @@
 .footer_3{
     grid-area: footer_3;
      background-color:#F5BC00;
-     text-align: center;
+     text-align:left
 }
 .img_2{
     grid-area: img_2;
