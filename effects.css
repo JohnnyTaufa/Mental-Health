@@ -134,14 +134,14 @@
 .footer_1{
     grid-area: footer_1;
      background-color:#F5BC00;
-     text-align: center;
+     text-align: left;
    
 }
 
 .footer_2{
     grid-area: footer_2;
      background-color:#F5BC00;
-     text-align: center;
+     text-align: left;
 }
 
 .footer_3{
